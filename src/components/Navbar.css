@@ -6,6 +6,7 @@ Date: September 26, 2024
 */
 /* src/components/Navbar.css */
 
+/*navigation bar style*/
 .navbar {
   display: flex;
   align-items: center;
@@ -14,10 +15,11 @@ Date: September 26, 2024
   background-color: #083f5b; 
 }
 
+/* logo image */
 .logo-image {
   width: 100px;   
   height: 60px;  
-  object-fit: contain; /* logo image */
+  object-fit: contain; 
 }
 
 .nav-links {

@@ -6,6 +6,7 @@ Date: September 26, 2024
 */
 /* src/components/Contact.css */
 
+/*contact page style*/
 .contact {
     max-width: 600px;
     margin: 0 auto;
@@ -45,7 +46,7 @@ Date: September 26, 2024
     border: 1px solid #ddd;
     border-radius: 5px;
   }
-  
+ /*button style*/ 
   button {
     padding: 10px;
     background-color: #28a745;
