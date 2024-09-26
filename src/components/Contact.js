@@ -1,6 +1,6 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
-import './Contact.css'; // Assuming you have a Contact.css for styling
+import './Contact.css'; // Assuming Contact.css is already created and working
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -11,15 +11,24 @@ const Contact = () => {
     message: ''
   });
 
+  // Capture user input
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Simulate form submission and redirect to the home page
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would handle form submission
-    console.log(formData);
+    // Display the user's input in the popup
+    alert(`
+      Thank you for your message! Here's what you submitted:
+      Name: ${formData.firstName} ${formData.lastName}
+      Contact Number: ${formData.contactNumber}
+      Email: ${formData.email}
+      Message: ${formData.message}
+    `);
+
     // Redirect to Home page
     window.location.href = '/';
   };
@@ -30,8 +39,8 @@ const Contact = () => {
 
       {/* Contact Information Panel */}
       <div className="contact-info">
-        <p><strong>Name:</strong> Evelyn Kim</p>
-        <p><strong>Email:</strong> <a href="mailto:hkim321@my.centennialcollege.ca">hkim321@my.centennialcollege.ca</a></p>
+        <p><strong>Name:</strong> Jane Smith</p>
+        <p><strong>Email:</strong> <a href="mailto:jane123@email.com">jane123@email.com</a></p>
         <p><strong>Phone:</strong> 123-456-7890</p>
       </div>
 

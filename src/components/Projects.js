@@ -10,26 +10,29 @@ const Projects = () => {
           <img src="projectimg1.png" alt="Project 1" style={{ width: '400px', height: '300px' }} />
           <h2>Project 1: Web Design - Commercial Product Website</h2>
           <p>
-            *Designed an interactive marketing website using JavaScript, HTML, and CSS<br />
-            *Developed an attractive, responsive and user-oriented interface for ease of navigation
+          Role & Outcome: I designed and developed an interactive, user-friendly marketing website using JavaScript, 
+          HTML, and CSS. My role involved creating a responsive and visually appealing interface that optimized user 
+          navigation, resulting in a smooth and engaging user experience.
           </p>
         </div>
         <div className="project">
           <img src="projectimg2.png" alt="Project 2" style={{ width: '400px', height: '300px' }} />
           <h2>Project 2: Commercial Web Application Software Requirements Specification</h2>
           <p>
-            *Developed a detailed software requirement specification by using both textual and graphical diagrams (UML
-            Standards) for a fictitious web application,<br />
-            gaining a solid understanding of technical documentation.
+          Role & Outcome: I authored a comprehensive Software Requirements Specification (SRS) for a 
+          fictitious web application, utilizing both textual descriptions and UML diagrams. This project 
+          enhanced my ability to produce clear technical documentation and gave me practical experience with SRS 
+          tandards.
           </p>
         </div>
         <div className="project">
           <img src="projectimg3.png" alt="Project 3" style={{ width: '400px', height: '300px' }} />
           <h2>Project 3: E-commerce Database Design – Backend Project</h2>
           <p>
-            *Built an e-commerce database with SQL Developer, including ERDs and a populated schema<br />
-            *Executed SQL queries (DDL, DML) to manage data and implement features like product categorization and
-            shopping cart operations
+          Role & Outcome: I designed and implemented an e-commerce database using SQL Developer, constructing 
+          Entity-Relationship Diagrams (ERDs) and executing SQL queries to manage data. The outcome was a fully 
+          operational database with features like product categorization and shopping cart functionalities, 
+          providing a robust backend solution.
           </p>
         </div>
       </div>
