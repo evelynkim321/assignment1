@@ -1,3 +1,9 @@
+/* 
+File Name: Contact.js
+Student Name: Evelyn Kim 
+Student ID: 301121049
+Date: September 26, 2024 
+*/
 // src/components/Contact.js
 import React, { useState } from 'react';
 import './Contact.css'; // Assuming Contact.css is already created and working
@@ -39,8 +45,8 @@ const Contact = () => {
 
       {/* Contact Information Panel */}
       <div className="contact-info">
-        <p><strong>Name:</strong> Jane Smith</p>
-        <p><strong>Email:</strong> <a href="mailto:jane123@email.com">jane123@email.com</a></p>
+        <p><strong>Name:</strong> Evelyn Kim</p>
+        <p><strong>Email:</strong> <a href="mailto:hkim321@my.centennialcollege.ca">hkim321@my.centennialcollege.ca</a></p>
         <p><strong>Phone:</strong> 123-456-7890</p>
       </div>
 

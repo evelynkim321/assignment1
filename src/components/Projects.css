@@ -1,0 +1,78 @@
+/* 
+File Name: Projects.css
+Student Name: Evelyn Kim 
+Student ID: 301121049
+Date: September 26, 2024 
+*/
+/* src/components/Projects.css */
+
+.projects {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .projects h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the projects */
+    gap: 15px; /* Reduced gap between project cards */
+  }
+  
+  .project {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%; /* Keep the width at 30% for 3 columns */
+    max-width: 350px; /* Ensures it doesn’t grow too large on wider screens */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .project h2 {
+    color: #007bff;
+    font-size: 1.3rem;
+    margin-top: 15px;
+  }
+  
+  .project p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 1024px) {
+    .project {
+      width: 45%; /* 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .project-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      width: 90%; /* Full width on small screens */
+    }
+  }
+  

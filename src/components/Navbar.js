@@ -1,3 +1,9 @@
+/* 
+File Name: Navbar.js
+Student Name: Evelyn Kim 
+Student ID: 301121049
+Date: September 26, 2024 
+*/
 // src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';

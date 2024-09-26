@@ -1,0 +1,68 @@
+/* src/components/About.css */
+
+.about {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 900px; /* Set max width to center content on larger screens */
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .about-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding: 0 20px; /* Add padding to prevent text from touching screen edges */
+  }
+  
+  .resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      padding: 20px;
+    }
+  
+    .about h1 {
+      font-size: 2rem;
+    }
+  
+    .about p {
+      font-size: 1rem;
+    }
+  
+    .resume-button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  
