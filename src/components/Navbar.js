@@ -7,8 +7,9 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
-        {/* Replace with your custom logo */}
-        <Link to="/">Evelyn Logo</Link>
+        <Link to="/">
+          <img src="/eklogo.png" alt="Logo" className="logo-image" /> {/* Use the logo image from the public folder */}
+        </Link>
       </div>
       <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
