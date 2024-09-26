@@ -11,13 +11,13 @@ Date: September 26, 2024
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #083f5b; /* Change as needed */
+  background-color: #083f5b; 
 }
 
 .logo-image {
   width: 100px;   
   height: 60px;  
-  object-fit: contain; /* Ensure the image is contained within the specified dimensions */
+  object-fit: contain; /* logo image */
 }
 
 .nav-links {
@@ -30,8 +30,8 @@ Date: September 26, 2024
 }
 
 .nav-links a {
-  color: white; /* Link color */
-  text-decoration: none; /* Remove underline */
+  color: white; /* Link  */
+  text-decoration: none; 
 }
 
 .nav-links a:hover {

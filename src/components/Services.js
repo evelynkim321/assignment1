@@ -6,7 +6,7 @@ Date: September 26, 2024
 */
 // src/components/Services.js
 import React from 'react';
-import './Services.css'; // Ensure you create this CSS file
+import './Services.css'; 
 
 const Services = () => {
   return (

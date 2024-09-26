@@ -17,12 +17,12 @@ Date: September 26, 2024
     font-size: 2.5rem;
     margin-bottom: 30px;
   }
-  
+  /* Centers the projects */
   .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centers the projects */
-    gap: 15px; /* Reduced gap between project cards */
+    justify-content: center; 
+    gap: 15px;
   }
   
   .project {
@@ -30,8 +30,8 @@ Date: September 26, 2024
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    width: 30%; /* Keep the width at 30% for 3 columns */
-    max-width: 350px; /* Ensures it doesn’t grow too large on wider screens */
+    width: 30%; 
+    max-width: 350px; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   

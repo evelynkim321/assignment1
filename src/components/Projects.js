@@ -6,7 +6,7 @@ Date: September 26, 2024
 */
 // src/components/Projects.js
 import React from 'react';
-import './Projects.css'; // Import the new CSS file
+import './Projects.css'; 
 
 const Projects = () => {
   return (
@@ -34,7 +34,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <img src="projectimg3.png" alt="Project 3" />
-          <h2>Project 3: E-commerce Database Design – Backend Project</h2>
+          <h2>Project 3: E-commerce Database Design - Backend Project</h2>
           <p>
            <b>Role & Outcome</b>: I designed and implemented an e-commerce database using SQL Developer, constructing 
             Entity-Relationship Diagrams (ERDs) and executing SQL queries to manage data. The outcome was a fully 

@@ -7,14 +7,14 @@ Date: September 26, 2024
 // src/components/Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css'; // Create and customize this CSS file
+import './Navbar.css'; 
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src="/eklogo.png" alt="Logo" className="logo-image" /> {/* Use the logo image from the public folder */}
+          <img src="/eklogo.png" alt="Logo" className="logo-image" /> {}
         </Link>
       </div>
       <ul className="nav-links">

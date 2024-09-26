@@ -6,7 +6,7 @@ Date: September 26, 2024
 */
 // src/components/Contact.js
 import React, { useState } from 'react';
-import './Contact.css'; // Assuming Contact.css is already created and working
+import './Contact.css'; 
 
 const Contact = () => {
   const [formData, setFormData] = useState({
